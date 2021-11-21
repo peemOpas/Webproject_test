@@ -1,0 +1,60 @@
+:root {
+  --color1: rgb(5, 55, 66);
+  --color2: rgb(57, 162, 219);
+  --color3: rgb(162, 219, 250);
+  --color4: rgb(232, 240, 242);
+}
+
+.quizpage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+.menu,
+.quiz,
+.scorepage {
+  width: 500px;
+  height: 500px;
+  background-color: var(--color3);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow-y: scroll;
+}
+.menu button,
+.quiz button,
+.scorepage button {
+  width: 300px;
+  height: 50px;
+  margin: 5px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 20px;
+}
+.quiz h1 {
+  padding: 10px;
+}
+
+button:hover {
+  background-color: var(--color1);
+  color: antiquewhite;
+}
+.quizfooter {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 400px;
+}
+.quizfooter button {
+  width: 50px;
+}
+
+/* .quizchoice {
+  background-color: var(--color1);
+  color: antiquewhite;
+} */
