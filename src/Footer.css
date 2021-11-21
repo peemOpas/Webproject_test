@@ -1,0 +1,16 @@
+footer {
+  height: 100px;
+  background-color: var(--color1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: antiquewhite;
+
+  /* border-top-left-radius: 15px;
+    border-top-right-radius: 15px; */
+}
+
+.footer-icon > ul > li {
+  margin-left: 80px;
+  cursor: pointer;
+}
