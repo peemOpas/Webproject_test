@@ -1,0 +1,35 @@
+:root {
+  --color1: rgb(5, 55, 66);
+  --color2: rgb(57, 162, 219);
+  --color3: rgb(162, 219, 250);
+  --color4: rgb(232, 240, 242);
+}
+div {
+  color: chocolate;
+  height: 600px;
+}
+
+.leftpanel,
+.rightpanel {
+  height: 600px;
+  width: 50%;
+}
+
+.leftpanel {
+  background: url("registerpage.png") no-repeat center;
+  background-size: 60%;
+}
+.rightpanel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10%;
+  
+}
+.container2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  background-color: var(--color3);
+}
