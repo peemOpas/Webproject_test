@@ -1,0 +1,52 @@
+:root {
+  --color1: rgb(5, 55, 66);
+  --color2: rgb(57, 162, 219);
+  --color3: rgb(162, 219, 250);
+  --color4: rgb(232, 240, 242);
+}
+.register {
+  display: block;
+  justify-content: center;
+  font-size: large;
+}
+.registerform {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  background-color: antiquewhite;
+  border-radius: 30px;
+  border: var(--color2) solid 5px;
+  height: 500px;
+  overflow-y: scroll;
+}
+.registerform > p > label {
+  display: bock;
+  margin-bottom: 5px;
+}
+
+.registerform > p > input {
+  display: block;
+  border: 2px solid blanchedalmond;
+  border-radius: 10px;
+  width: 100%;
+}
+.registerheader {
+  font-size: 30px;
+}
+.registerform > p > input:focus {
+  outline: none;
+}
+
+.registerform > p > input:hover {
+  border: 2px solid rgb(112, 104, 91);
+}
+
+.registerform > button {
+  margin-left: 90px;
+  width: 100px;
+  border-radius: 20px;
+  color: var(--color1);
+  background-color: var(--color2);
+  font-size: 16px;
+}
