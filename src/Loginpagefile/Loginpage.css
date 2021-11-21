@@ -1,0 +1,19 @@
+:root {
+  --color1: rgb(5, 55, 66);
+  --color2: rgb(57, 162, 219);
+  --color3: rgb(162, 219, 250);
+  --color4: rgb(232, 240, 242);
+}
+
+body {
+  box-sizing: border-box;
+  background-color: var(--color4);
+}
+
+ul > li {
+  color: white;
+  display: block;
+  float: left;
+  margin-right: 40px;
+  font-size: 20pt;
+}

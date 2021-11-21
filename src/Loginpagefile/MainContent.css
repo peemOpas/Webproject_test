@@ -1,0 +1,47 @@
+:root {
+  --color1: rgb(5, 55, 66);
+  --color2: rgb(57, 162, 219);
+  --color3: rgb(162, 219, 250);
+  --color4: rgb(232, 240, 242);
+}
+
+.container {
+  display: flex;
+}
+.leftside,
+.rightside {
+  height: 600px;
+  width: 50%;
+}
+
+.leftside {
+  background-color: var(--color3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-top-right-radius: 300px;
+  border-bottom-right-radius: 300px;
+  border: solid var(--color1) 5px;
+}
+
+.picture {
+  background: url("people2.png") no-repeat center;
+  background-size: 80%;
+  margin-right: 80px;
+  height: 600px;
+  width: 400px;
+}
+#welcome {
+  font-size: 30pt;
+  font-weight: 700;
+  color: var(--color4);
+  width: 400px;
+  height: 300px;
+  text-align: center;
+  padding-top: 180px;
+  color: var(--color1);
+}
+.rightside {
+  background-color: var(--color4);
+}
